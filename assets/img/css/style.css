@@ -29,7 +29,16 @@ family=Lato -> Títulos, textos
 /* FONTS */
 
 /* VARIÁVEIS */
-:root{}
+:root{
+    --estiloDaFonte:'Montserrat', sans-serif;
+    --estiloDaFonte2:'Lato'sans-serif;
+    --corBranca:#FFFFFF;
+    --corAzulClaro:#007aff;
+    --corAzuelEscuro:#00043e;
+    --cinza:#303030;
+    --cinzaClaro: #818181;
+    
+}
   
 /* GERAL */
 html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul{
@@ -41,6 +50,7 @@ html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul{
 }
 img{
     max-width: 800px;
+    margin: 0 auto;
 }
 div.flex{
     display: flex;
@@ -61,7 +71,6 @@ div.container{
     margin:0 auto;
 }
 /* GERAL */
-  
 /* HTML */
 html{}
 /* HTML */
@@ -69,6 +78,7 @@ html{}
 /* BODY */
 body{}
 /* BODY */
+
   
 /* HEADER */
 header{}
@@ -81,7 +91,79 @@ footer{}
 /* INICIAL */
 main{}
 /* INICIAL */
+.secaoCursos article h2{
+    font:var(--estiloDaFonte);
+    font-size: 19px;
+    text-align: center;   
+    margin:35px 0 35px 0;
+}
+.secaoCursos article p{
+    color: black;
+    font: var(--estiloDaFonte2);
+}
+.secaoCursos article ul li p{
+    text-align: center;
+    color: var(--cinzaClaro);
+    font: 15px var(--estiloDaFonte2);
+    
+}
+.secaoCursos article ul li h3,p{
+    text-align: center;
+}
+.secaoCursos article ul li h3{
+    margin:0 0 20px 0;
+}
+.secaoCursos article ul img{
+    width: 100px;
+    display: flex;
+}
+.secaoCursos article ul{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+}
+.secaoCursos article ul li{
+    margin: 35px 0 35px 0;
+}
+#SoftSkls{
+    margin: 35px 0 110px 0;
 
+}
+.secaoCalendar h2{
+    text-align: center;
+
+}
+.secaoCalendar p{
+    text-align: center;
+    margin:20px 0 70px;
+}
+.calendario-data{
+    background-color: var(--corAzuelEscuro);
+    color: var(--corBranca);
+    padding: 30px 0 30px 0;
+    height:40px;
+    font-size: 30px;
+}
+.calendario li{
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    margin:0 auto;
+    margin-top: 50px;
+}
+.calendario li p{
+    color: var(--cinzaClaro);
+}
+.calendario li h3{
+    padding-top: 20px;
+}
+hr{
+    width: 100%;
+}
 /* EXTRAS */
 
 /* para estilizar a scrollbar */
