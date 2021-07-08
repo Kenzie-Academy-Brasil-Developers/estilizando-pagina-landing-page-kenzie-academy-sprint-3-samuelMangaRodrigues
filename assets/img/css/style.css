@@ -205,6 +205,7 @@ header{
 }
 
 .sessao__destaque01 p{
+    text-align: left;
     font-size: 18px;
     padding-bottom: 60px;
     color: var(--cinza);
