@@ -499,7 +499,7 @@ footer p a{
         
         header{
                align-items: center;
-               justify-content: space-between;
+               justify-content: space-around;
         }
     
         .menu__icon{
