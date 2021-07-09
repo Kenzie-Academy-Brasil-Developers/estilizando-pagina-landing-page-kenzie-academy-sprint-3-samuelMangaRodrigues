@@ -243,6 +243,9 @@ flex-direction: column;
     align-items: center;
     margin-right:60px;
 }
+.form-input-model{
+    width: 193px;
+}
 .form-input-model textarea{
     width: 193px;
     margin: 10px 0 10px 0;
@@ -333,6 +336,9 @@ footer p a{
         .secaoContato-informacoes ul{
             margin-top: 0%;
         }
+        .form-input-model{
+            width: 193px;
+        }
         #mensagem{
             width: 391px;
         }
@@ -348,6 +354,8 @@ footer p a{
         }
         input#nome{
             margin-right: 5px;
+        }input#email{
+            margin-left: 5px;
         }
         .secaoContato-informacoes p{
             margin-top: 79px;
