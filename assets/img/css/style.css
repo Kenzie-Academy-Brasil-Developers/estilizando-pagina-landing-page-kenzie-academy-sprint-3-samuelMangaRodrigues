@@ -339,6 +339,7 @@ footer p a{
         .form-input-model{
             width: 193px;
             
+
         }
         #mensagem{
             width: 391px;
@@ -355,6 +356,8 @@ footer p a{
         }
         input#nome{
             margin-right: 5px;
+        }input#email{
+            margin-left: 5px;
         }
         input#email{
             margin-left: 5px;
